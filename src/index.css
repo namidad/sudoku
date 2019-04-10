@@ -12,3 +12,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.gameDashboard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.clicked {
+  background: blue;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.col2 div{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.simple {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple:hover{
+  background: red;
+  cursor: pointer;
+}
